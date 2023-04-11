@@ -14,9 +14,9 @@ Zur Verwendung mit anderen Distributionen siehe: [Yocto Project Quick Build](htt
 > :memo: **HINWEIS:** Bei Verwendung der Tuxbox-Builder-VM (welche nicht zwingend erforderlich ist), springe bitte zu [Schritt 1](#1-Init-Skript-klonen). Die Tuxbox-Builder-VM enthält bereits erforderliche Pakete. Details und Download von Tuxbox-Builder VM siehe: [Tuxbox-Builder](https://sourceforge.net/projects/n4k/files/Tuxbox-Builder)
 
 ```bash
-sudo apt-get install -y gawk libluajit-5.1-dev liblua5.1-0-dev groovy wget git-core diffstat unzip texinfo gcc-multilib build-essential \
-chrpath gobjc socat cpio python python3 python3-pip python3-pexpect xz-utils debianutils \
-iputils-ping python3-git python3-jinja2 libegl1-mesa pylint3 xterm subversion locales-all \
+sudo apt-get install -y gawk libluajit-5.1-dev liblua5.1-0-dev groovy wget git diffstat unzip texinfo gcc-multilib build-essential \
+chrpath gobjc socat cpio python2 python3 python3-pip python3-pexpect xz-utils debianutils \
+iputils-ping python3-git python3-jinja2 libegl1-mesa pylint xterm subversion locales-all \
 libxml2-utils ninja-build default-jre clisp libcapstone4 libsdl2-dev doxygen
 ```
 
