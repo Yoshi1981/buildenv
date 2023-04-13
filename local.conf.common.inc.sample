@@ -104,7 +104,7 @@ CCACHE_TOP_DIR = "${HOME}/.ccache"
 #   you want to use sstate cache for other builds in future. It goes without saying that there is sufficient memory space available.
 #   NOTE: This directory is a very precious. Don't delete it lightly.
 #SSTATE_DIR = "${TOPDIR}/sstate-cache"
-SSTATE_DIR = "${HOME}/sstate-cache/${DISTRO_VERSION}"
+SSTATE_DIR = "${HOME}/buildenv/sstate-cache/${DISTRO_VERSION}"
 
 ### Tipp: use sstate mirrors
 #   Speed up your complete new package build or after deleted tmp dir or sstate-cache and guard against fetcher failures.
