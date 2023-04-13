@@ -20,6 +20,15 @@ iputils-ping python3-git python3-jinja2 libegl1-mesa pylint xterm subversion loc
 libxml2-utils ninja-build default-jre clisp libcapstone3 libsdl2-dev doxygen
 ```
 
+```bash
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1
+
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 2
+
+sudo update-alternatives --config python
+↳ Select python3
+```
+
 #### Empfohlene Zusatzpakete zur grafischen Unterstützung und Analyse (z.B. mit Kdevelop, Meld):
 ```bash
 sudo apt-get install -y gitk git-gui meld cppcheck clazy kdevelop
