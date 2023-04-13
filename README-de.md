@@ -30,6 +30,15 @@ apt-get install -y gitk git-gui meld cppcheck clazy kdevelop
 git config --global user.email "you@example.com"
 git config --global user.user "Dein Name"
 ```
+### Select python3
+```bash
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1
+
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 2
+
+sudo update-alternatives --config python
+↳ Select python3
+```
 
 ## Image bauen:
 
