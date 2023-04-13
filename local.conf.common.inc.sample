@@ -69,7 +69,7 @@ RM_WORK_EXCLUDE += "neutrino-image base-files neutrino-webif neutrino-logos neut
 #   It's recommended outsourcing the download archive.
 #   See: https://docs.yoctoproject.org/ref-manual/variables.html?highlight=sdkimage_features#term-DL_DIR
 #DL_DIR ?= "${COREBASE}/yocto-downloads"
-DL_DIR = "${HOME}/Archive324"
+DL_DIR = "${HOME}/buildenv/Archive324"
 
 ### Base directory of the OpenEmbedded build system used by build output and intermediate files (other than the shared state cache).
 #   By default, the TMPDIR variable points to tmp within the build directory.
