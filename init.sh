@@ -85,7 +85,7 @@ OE_CORE_LAYER_NAME=openembedded-core
 OE_CORE_LAYER_GIT_URL=https://github.com/openembedded/openembedded-core.git
 
 TUXBOX_LAYER_NAME=meta-neutrino
-TUXBOX_LAYER_GIT_URL=https://github.com/Tuxbox-Project
+TUXBOX_LAYER_GIT_URL=https://github.com/Yoshi1981/meta-neutrino
 
 TUXBOX_BSP_LAYER_GIT_URL=$TUXBOX_LAYER_GIT_URL
 
